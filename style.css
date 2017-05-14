@@ -1,0 +1,154 @@
+.container {
+  font-family: Helvetica, Sans-Serif;
+  margin: 0 12%;
+}
+
+.nav{
+  width:10%;
+  display: inline-block;
+  background-color: black;
+  height: 700px;
+}
+.nav img{
+  margin: auto;
+    display: block;
+}
+.explore{
+border-right: 7px solid #4e9ad3;
+}
+.folder{
+  border-right: 7px solid #f631ef;
+
+}
+.upload{
+  border-right: 7px solid #ff9400;
+
+}
+.nav ul li{
+  width:91%;
+  line-height: 4;
+  position:relative;
+}
+.nav ul li a{
+  color: #e2e2e2;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 41px;
+}
+
+.nav ul{
+  list-style-type: none;
+          padding: 0;
+}
+
+.main{
+  display: inline-block;
+  width: 90%;
+  float: right;
+}
+
+.header {
+  background-image: url("images/top_banner.jpg");
+      height: 150px;
+          background-repeat: no-repeat;
+          position: relative;
+
+
+}
+.header-text{
+  position: absolute;
+bottom: 4px;
+left: 18px;
+}
+.maintext{
+  font-weight: bold;
+  font-size: 18px;
+  color: #403f3f;
+
+}
+.text{
+  font-weight: bold;
+  font-size: 60px;
+  color: #403f3f;
+
+}
+
+.image img{
+  height: 250px;
+  width: 307px;
+
+}
+
+
+.content-boxes{
+  border: 2px solid #e2e2e2;
+  color: #403f3f;
+  display: inline-block;
+  width: 30%;
+  margin: 15px 15px;
+  text-align: center;
+  min-height: 405px;
+}
+.title{
+  font-weight: bold;
+  font-size: 18px;
+  margin: 10px 0;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+}
+.title::first-letter{
+    text-transform: capitalize
+
+}
+.filename{
+  font-weight: bold;
+  font-size: 14px;
+  margin: 10px 0;
+}
+.description{
+  font-size: 12px;
+  margin: 10px 0;
+}
+.btn-sort{
+      width: 100%;
+    text-align: right;
+    cursor: pointer;
+}
+
+.clear {
+clear:both;
+}
+.content{
+        height: 500px;
+    overflow-y: scroll;
+}
+
+.description {
+     overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+   
+}
+.icon {
+color:white;
+    display:inline;
+    font-size:19px;
+        position: absolute;
+    top: 19px;
+    left: 13px;
+}
+hr {
+    border: none;
+    height: 2px;
+    color: lightgray;
+    background-color: lightgray;
+    margin: 0 16px;
+}
+.box-icon{
+        color: gray;
+
+}
